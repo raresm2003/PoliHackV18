@@ -1,0 +1,38 @@
+/* css - src/Pages/styles/home.css */
+.home-container {
+    position: fixed;
+    inset: 0; /* top:0; right:0; bottom:0; left:0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: var(--bg);
+    z-index: 0;
+}
+
+.home-card {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 460px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    margin: 0 auto;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.home-buttons button {
+    padding: 12px 22px;
+    border-radius: 6px;
+    border: none;
+    background: var(--button-bg);
+    color: var(--button-text);
+    cursor: pointer;
+}

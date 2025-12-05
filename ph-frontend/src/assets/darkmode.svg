@@ -1,0 +1,42 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <rect width="500" height="500" fill="#1b2631" />
+
+    <g fill="#2c3e50">
+        <path d="M0,400 Q50,380 100,400 T200,400 T300,400 T400,400 T500,400 V500 H0 Z" fill="#212f3c"/>
+        <rect x="50" y="320" width="60" height="100" />
+        <rect x="70" y="340" width="15" height="20" fill="#1b2631"/> <rect x="130" y="280" width="50" height="140" />
+        <rect x="140" y="300" width="10" height="20" fill="#1b2631"/>
+        <rect x="155" y="300" width="10" height="20" fill="#1b2631"/>
+        <rect x="320" y="300" width="50" height="120" />
+        <rect x="330" y="320" width="10" height="20" fill="#1b2631"/>
+        <rect x="345" y="320" width="10" height="20" fill="#1b2631"/>
+        <rect x="380" y="350" width="70" height="70" />
+    </g>
+
+    <polygon points="100,120 140,120 100,200 130,200 90,300 70,240 100,240" fill="#d6dbdf" />
+
+    <g fill="#34495e">
+        <circle cx="80" cy="100" r="40" />
+        <circle cx="120" cy="80" r="50" />
+        <circle cx="170" cy="100" r="40" />
+        <circle cx="120" cy="120" r="40" />
+        <rect x="80" y="100" width="90" height="40" />
+    </g>
+
+    <g transform="translate(170, 320)">
+        <rect x="70" y="50" width="70" height="60" fill="#566573"/>
+        <rect x="85" y="70" width="15" height="20" fill="#2c3e50"/> <rect x="110" y="70" width="15" height="20" fill="#2c3e50"/> <polygon points="0,50 70,50 70,110 0,110 0,50" fill="#ecf0f1"/>
+        <rect x="25" y="65" width="25" height="45" fill="#1b2631"/>
+
+        <path d="M-10,50 L35,10 L80,50" fill="#e74c3c" /> <polygon points="35,10 140,10 150,50 80,50" fill="#c0392b"/> </g>
+
+    <g transform="translate(205, 170)">
+        <path d="M40,0 C18,0 0,18 0,40 C0,70 40,110 40,110 C40,110 80,70 80,40 C80,18 62,0 40,0 Z" fill="#e74c3c"/>
+        <circle cx="40" cy="40" r="15" fill="#1b2631"/> </g>
+
+    <g transform="translate(380, 230)">
+        <path d="M50,10 L90,80 L10,80 Z" fill="#e74c3c" stroke="#e74c3c" stroke-width="5" stroke-linejoin="round"/>
+        <rect x="47" y="35" width="6" height="25" fill="white" />
+        <circle cx="50" cy="70" r="4" fill="white" />
+    </g>
+</svg>
